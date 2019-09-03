@@ -22,10 +22,23 @@ library(tidyverse)
 gapminder %>%
   select(country,year,lifeExp) %>%
   group_by(year) %>%
-  filter(lifeExp == max(lifeExp))
+  filter(lifeExp == max(lifeExp)) %>%
+  arrange(year) ->
+  sumdat
 
 
 
 ```
 
-  asasaas
+We will now recreate the plot from Oepeen and Vauple
+
+
+```{r}
+
+
+```
+
+git status
+git add
+git commit -m "a nice message"
+git push 
